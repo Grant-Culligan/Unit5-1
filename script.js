@@ -5,21 +5,21 @@ document.getElementById('show').addEventListener('click', show)
 document.getElementById('bg').addEventListener('click', background)
 
 function image () {
-  document.getElementById('catpic').src = "images/duck.png"
+  document.getElementById('catpic').src = 'images/duck.png'
 }
 
 function text () {
-  document.getElementById('text').innerHTML = "new text"
+  document.getElementById('text').innerHTML = 'new text'
 }
 
 function hide () {
-  document.getElementById('text').style.display = "none"
+  document.getElementById('text').style.display = 'none'
 }
 
 function show () {
-  document.getElementById('text').style.display = "block"
+  document.getElementById('text').style.display = 'block'
 }
 
 function background () {
-  document.body.style.backgroundColor = "orange"
+  document.body.style.backgroundColor = 'orange'
 }
